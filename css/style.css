@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+figure img{
+    height: 50px;   
+}
+header{
+    min-height: 10vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+header img{
+    height: 100px;
+}
+
+button img{
+    height: 30px;
+}
+li{
+    display: flex;
+}
+.dropdown-menu{
+    flex-wrap: nowrap !important;
+}
+.dropdown-menu.show{
+    display: flex;
+    width: 100vw;
+    padding: 3rem;
+    gap: 3rem;
+    align-items: start;
+    justify-content: center;
+}
+
+
+/* ESTILO DE CARDS */
+
+.card-title {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+/* .btn {
+    background-color: #ffbc0d;
+    border-color: transparent;
+} */
+
+.card-body {
+    text-align: center;
+}
+
+
+.card {
+    margin: 2%;
+   
+}
+
+.card-img-top {
+    width: 100%;
+   
+    object-fit: cover;
+}
+
+.carousel-inner {
+   
+    margin-bottom: 2%;
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .card {
+        height: 25rem;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .card {
+        height: 30rem;
+    }
+}
+
+
+/*-------------*/
+.img-logo-dapp {
+    height: 123px;
+    width: 123px;
+}
+
+.button {
+    background-color: #fff;
+    border-color: #dbdbdb;
+    border-radius: 5px;
+    color: #363636;
+    cursor: pointer;
+    justify-content: center;
+    padding: calc(0.5em - 1px) 1em;
+    text-align: center;
+    white-space: nowrap;
+    text-decoration: none;
+    min-width: 114px;
+    padding: 14px 30px;
+    height: 44px;
+    font-size: 0.9rem;
+
+}
+
+.button:hover {
+    background-color: #e4e4e4;
+}
+
+.row-dapp {
+    background-color: #ffbc0d;
+    color: #292929;
+    height: 175px;
+    padding: 20px 0px;
+
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.h2-dapp {
+    font-weight: bold;
+}
+
+.content-sup {
+    background-color: #ffbc0d;
+}
+
+.dapp_drops.animation {
+    transform: scaleY(1.3);
+}
+
+.dapp_drops {
+    width: 100%;
+    margin-top: -1px;
+    transition: 1s;
+    transform-origin: top;
+    transform: scaleY(0);
+    padding: 0 10%;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .img-logo-dapp {
+        height: 45px;
+        width: 45px;
+    }
+
+    .h2-dapp {
+        font-weight: 700;
+        font-size: 28px;
+    }
+
+    .dapp_drops {
+        width: 100%;
+        margin-top: -12px;
+        transition: 1s;
+        transform-origin: top;
+        transform: scaleY(0);
+    }
+}
+
+.ul-footer{
+
+    list-style-type: none;
+    padding: 0.3rem;
+
+}
+.div-footer{
+    padding: 0.5rem;
+}
